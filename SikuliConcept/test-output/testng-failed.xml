@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Facebook Application Test Automation Test Suite]">
+  <test thread-count="5" name="Facebook test cases(failed)">
+    <classes>
+      <class name="com.Ezshield.qa.testcases.HomePageTest">
+        <methods>
+          <include name="setup"/>
+          <include name="teardown"/>
+          <include name="verifyhomepagetitle"/>
+          <include name="verifyusernametest"/>
+        </methods>
+      </class> <!-- com.Ezshield.qa.testcases.HomePageTest -->
+      <class name="com.Ezshield.qa.testcases.LoginPageTest">
+        <methods>
+          <include name="setup"/>
+          <include name="logintest"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- com.Ezshield.qa.testcases.LoginPageTest -->
+    </classes>
+  </test> <!-- Facebook test cases(failed) -->
+</suite> <!-- Failed suite [Facebook Application Test Automation Test Suite] -->

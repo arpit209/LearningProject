@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name = "Facebook Application Test Automation Test Suite">
+<test name = "Facebook test cases">
+<classes>
+<class name ="com.Ezshield.qa.testcases.HomePageTest"></class>
+<class name ="com.Ezshield.qa.testcases.LoginPageTest"></class>
+
+</classes>
+
+
+</test>
+</suite>
